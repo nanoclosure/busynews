@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/news_refresh"
+        android:showAsAction="ifRoom|withText"/>
+    
+     <item
+        android:id ="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/news_share"
+        android:showAsAction="ifRoom"
+        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+        />
+</menu>
